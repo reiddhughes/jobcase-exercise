@@ -4,11 +4,13 @@ Jobcase Exercise
 Repo containing code for an interview example for Jobcase.  
 The original ask was:
 
-> Using Python:
+```
+Using Python:
   
-  1 Create an ssh key pair on ec2
-  2 Create an AWS instance as an t2.micro using AWS Linux ami named "jobcase-test-app" that installs the following packages on launch: apache, mysql, python, logrotate, aws-client
-  3 Tag the instance with the following: Project: Jobcase, Environment: Development,   Project: Test-Lab
+1 Create an ssh key pair on ec2
+2 Create an AWS instance as an t2.micro using AWS Linux ami named "jobcase-test-app" that installs the following packages on launch: apache, mysql, python, logrotate, aws-client
+3 Tag the instance with the following: Project: Jobcase, Environment: Development,   Project: Test-Lab
+```
 
 Some assumptions were made:
 - The AMI is already present on AWS and is made with AWS Linux not AWS Linux 2.
