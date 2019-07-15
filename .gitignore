@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# PyCharm
+.idea/
+jobcase-exercise.iml
+
+# Pants
+.pants.d/
+.pants.workdir.file_lock
